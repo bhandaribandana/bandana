@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.carousel-box{
+	/*width:100%;
+	height:426px!important;*/
+	overflow:hidden;
+	position:relative;
+}
+
+.carousel{
+	width:960px!important;
+	overflow:hidden;
+}
+.carousel ul{
+	margin:0;
+	padding:0;
+}
+
+.carousel li{
+	padding-right:13px;
+}
+
+.carousel li .button{
+	margin-right:9px;
+}
+
+
+.carousel-box .prev{
+	width:25px;
+	height:98px;
+	background:url("../images/prev-next.png") no-repeat right top;
+	position:absolute;
+	top:92px;
+	right:108px;
+}
+.carousel-box .prev:hover{
+	background:url("../images/prev-next.png") no-repeat right bottom;
+}
+.carousel-box .next{
+	width:25px;
+	height:98px;
+	background:url("../images/prev-next.png") no-repeat left top;
+	position:absolute;
+	top:92px;
+	left:108px;
+}
+.carousel-box .next:hover{
+	background:url("../images/prev-next.png") no-repeat left bottom;
+}
