@@ -1,2 +1,1 @@
-# bandana
-AMS
+Airlines managment System
